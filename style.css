@@ -12,16 +12,21 @@ body {
 .title {
     background: #CFD7BF;
     color: #273717;
-    padding: 20px;
+    font-size: 2.5em;
+    padding: 30px;
     text-align: center;
 }
 
-h2 {
+h2, h3 {
     color: #273717;
 }
 
+h3 {
+    padding: 2% 0;
+}
+
 .container {
-    width: 60vw;
+    width: 70vw;
     margin: auto;
     margin-top: 5px;
 }
@@ -50,11 +55,12 @@ h2 {
 .content {
     display: flex;
     flex-direction: column;
-    
+    border: 1px solid #6A973E;
+    padding: 1%;
 }
 
 .cat {
-    flex: 1 0 40%;
+    flex: 1 0 30%;
 }
 
 .cat img {
@@ -62,13 +68,14 @@ h2 {
 }
 
 .aside {
-    flex: 1 0 60%;
+    flex: 1 0 70%;
     padding-left: 3%;
 }
 
 .footer {
     background: #fff;
 }
+
 .footer ul {
     list-style: none;
     display: flex;
